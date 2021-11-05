@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form.form-example {
+  display: table;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+#title {
+    border
+  border-width: 10px;
+}
+
+#container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(78, 230, 98);
+  min-height: 100vh;
+  /* padding: 60px; */
+}
