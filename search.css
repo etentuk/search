@@ -90,19 +90,17 @@ body {
 }
 
 #search-icon-search {
-    padding-right: 10px;
-    color: #4285f4;
-    display: flex;
-    align-items: center;
-  }
+  padding-right: 10px;
+  color: #4285f4;
+  display: flex;
+  align-items: center;
+}
 
 #searchButtons {
   display: flex;
   justify-content: center;
   padding: 18px;
 }
-
-
 
 .button input {
   background-color: #f8f9fa;

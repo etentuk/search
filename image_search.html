@@ -6,12 +6,17 @@
     <link rel="icon" href="./google_search_new_logo_icon_159150.ico">
     <script src="https://kit.fontawesome.com/eb021860e8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="search.css">
+    <script>
+        function submit() {
+            document.getElementById('image-search').submit()
+        }
+    </script>
 </head>
 
 <body>
     <div id="navBar">
         <div class="navLink">
-            <a href="advanced_search.html">Google Search</a>
+            <a href="index.html">Google Search</a>
         </div>
     </div>
     <div id="title">
@@ -23,7 +28,7 @@
     </div>
     <div id="formContainer">
         <div id="form">
-            <form action="https://images.google.com/images">
+            <form action="https://images.google.com/images" id="image-search">
                 <div id="searchBox">
                     <div id="search-icon">
                         <i class="fas fa-search" style="opacity: 0.4;"></i>
@@ -32,7 +37,7 @@
                         <input type="text" name="q">
                     </div>
                     <div id="search-icon-search">
-                        <i class="fas fa-search"></i>
+                        <i class="fas fa-search" onclick="submit()"></i>
                     </div>
                 </div>
             </form>
